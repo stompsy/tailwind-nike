@@ -6,8 +6,8 @@ const Button = ({ label, iconURL }) => {
 				src={iconURL}
 				alt='Arrow right icon'
 				className='ml-2 rounded-full'
-				w-5
-				h-5
+				width={5}
+				height={5}
 			/>
 		</button>
 	);
